@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text:wght@700&display=swap');
+
+body{
+    font-family: 'STIX Two Text', serif;
+    background-image: url();
+    margin: auto;
+    width: 750px;
+    
+    padding: 1rem;
+    backdrop-filter: blur(49px);
+    
+}
+img{
+    width: 40%;
+    position: relative;
+}
+.theme{
+    display: flex;
+}
+.top{
+    display: flex;
+}
+h1{
+   font-size: 3.2rem;
+}
+.para{
+    font-size: 1.4rem;
+    margin-bottom: 5rem;
+}
+#scroll{
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: 1px solid black;
+    display: inline;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+.sub{
+    margin-top: 10rem;
+   padding: 3rem 0rem 0rem 0rem;
+   padding: 3rem;
+}
+h2{
+    font-size: 2.5rem;
+    /* padding: 3rem; */
+}
+
+#input{
+    display: block;
+    margin-left: 39%;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding: 0.5rem;
+    border-radius: 1.5rem;
+    cursor: pointer;
+}
+#check{
+    display: block;
+    margin-left: 45%;
+    text-align: center;
+    align-items: center;
+    padding: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+   
+}
+#output{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+   
+    display: block;
+    
+    padding: 2rem;
+    border-radius: 4rem;
+    background-color: #ada59a38;
+}
+footer{
+    text-align: center;
+    margin-top: 2rem;
+    padding: 4rem;
+    border: 1px solid black;
+    background-color: #ffebcd1f;
+    border-bottom-left-radius: 3.5rem;
+    border-bottom-right-radius: 3.5rem;
+}
+
+a{
+    padding: 1rem;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+.hrs{
+    margin-top: 2rem;
+}

@@ -1,26 +1,60 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>repl.it</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Palindrome-Birthday</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="container">
-      <div class="content">
-        <h2 style="text-align: left;">Check if your birthdate is palindrome.</h2>
-        <p>A palindrome is a word, phrase, or sequence that reads the same backwards as forwards, e.g. madam<br><br>
-          This app checks your birthdate in 6 formats dd-mm-yyyy,<br>mm-dd-yyyy,yyyy-mm-dd,dd-mm-yy,mm-dd-yy,yy-mm-dd.
-          So if your birthdate is 4 Aug 2000, then app will check for 04082000, 08042000, 20000804, 040800,080400,000804.<br><br>If any one of the above format is palindrome then it shows the birthdate is palindrome or else it will show how many days you have missed to palindrome date form your birthdate.</p>
-        <h3 style="text-align: left;">Enter the Birthdate:</h3>
-        <input type="date" id="input">
-        <br>
-        <button id="btn-check">check</button>
-        <br>
-        <p id="output1"></p>
+    <div class="mainbody">
+      
       </div>
+      <hr />
+      <div class="headmain">
+        <div class="top">
+          <div class="bdy">
+            <h1>
+              Palindrome Birthday ! 🍩
+            </h1>
+            <h3>Check if your birthdate is palindrome.</h3>
+            <div class="para">
+              A Palindrome is a word/number which reads the same backwards as
+              forward.
+            </div>
+            <div id="scroll">Let's find out</div>
+          </div>
+          <!-- <hr /> -->
+         
+        </div>
+    
+      </div>
+      <hr class="hrs">
+      <div class="sub">
+        <h2>
+          Enter Your Birthdate 🍫
+        </h2>
+        <p class="para">
+          This app checks your birthdate in 4 formats yyyy-mm-dd, dd-mm-yyyy,mm-dd-yyyy
+          mm-dd-yy, dd-mm-yy, yy-mm-dd  <br />e.g. So if your birthdate is 4 Aug 2000, then app will check for 04082000, 08042000, 20000804, 040800,080400,000804.
+        </p>
+        <form action="" id="form">
+          <div id="main"></div>
+          <label for="input">
+            <input id="input" type="date" required />
+          </label>
+  
+          <button id="check" type="submit">Check</button>
+        </form>
+      </div>
+
+   
+    
+      <div id="output"></div>
     </div>
-    <script src="script.js"></script>
+    <hr class="hrs">
+    </div>
   </body>
+  <script src="script.js"></script>
 </html>
